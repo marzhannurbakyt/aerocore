@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "replay_participants": 16,
+  "replay_checks": 62,
+  "viewport_widths": [
+    1440,
+    1024,
+    768,
+    390,
+    360
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "tested": [
+    "known replay and reveal",
+    "all replay charts",
+    "evidence and context dialogs",
+    "invalid and blank input",
+    "degenerate regression",
+    "saved reference snapshots and reload",
+    "readonly history",
+    "TXT download",
+    "modal focus and Escape",
+    "keyboard cohort navigation",
+    "all CFT70 group filters",
+    "malformed CSV error",
+    "valid CSV import",
+    "responsive layout",
+    "no external network dependencies"
+  ]
+}

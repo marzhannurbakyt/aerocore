@@ -1,0 +1,4 @@
+participant_id,test_type,study_day,heart_rate,vo2_lmin,rer,age,posture
+DEMO,Peak,-7,185,3.0,1.15,30,upright
+DEMO,Peak,-3,186,3.02,1.16,30,upright
+DEMO,Peak,30,184,2.35,1.15,30,upright

@@ -1,0 +1,157 @@
+{
+  "participants": {
+    "SYN-01": {
+      "group": "без контрмер",
+      "declineEndPct": 18.8,
+      "vo2base": 2.27,
+      "age": 37
+    },
+    "SYN-02": {
+      "group": "без контрмер",
+      "declineEndPct": 17.4,
+      "vo2base": 3.02,
+      "age": 31
+    },
+    "SYN-03": {
+      "group": "с тренировками",
+      "declineEndPct": 2.2,
+      "vo2base": 2.62,
+      "age": 48
+    },
+    "SYN-04": {
+      "group": "без контрмер",
+      "declineEndPct": 15.9,
+      "vo2base": 3.21,
+      "age": 39
+    },
+    "SYN-05": {
+      "group": "без контрмер",
+      "declineEndPct": 16.1,
+      "vo2base": 3.58,
+      "age": 30
+    },
+    "SYN-06": {
+      "group": "с тренировками",
+      "declineEndPct": 0.2,
+      "vo2base": 3.73,
+      "age": 36
+    },
+    "SYN-07": {
+      "group": "без контрмер",
+      "declineEndPct": 11.4,
+      "vo2base": 3.18,
+      "age": 30
+    },
+    "SYN-08": {
+      "group": "без контрмер",
+      "declineEndPct": 13.7,
+      "vo2base": 2.69,
+      "age": 37
+    },
+    "SYN-09": {
+      "group": "с тренировками",
+      "declineEndPct": 1.5,
+      "vo2base": 3.41,
+      "age": 27
+    },
+    "SYN-10": {
+      "group": "без контрмер",
+      "declineEndPct": 16.3,
+      "vo2base": 2.89,
+      "age": 47
+    }
+  },
+  "errors": [
+    {
+      "row_id": "aerocore_synthetic.csv:24",
+      "codes": [
+        "BAD_DATE"
+      ],
+      "desc": "Некорректная дата",
+      "pid": "SYN-01"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:114",
+      "codes": [
+        "MISSING_VALUE"
+      ],
+      "desc": "Пропуск ЧСС",
+      "pid": "SYN-03"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:125",
+      "codes": [
+        "OUT_OF_RANGE"
+      ],
+      "desc": "Масса тела: потерян разряд (7,6 вместо 76)",
+      "pid": "SYN-03"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:134",
+      "codes": [
+        "OUT_OF_RANGE"
+      ],
+      "desc": "ЧСС = 999 (сбой датчика или записи)",
+      "pid": "SYN-03"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:221",
+      "codes": [
+        "DUPLICATE"
+      ],
+      "desc": "Полный дубликат строки",
+      "pid": "SYN-05"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:249",
+      "codes": [
+        "NOT_NUMBER"
+      ],
+      "desc": "Опечатка: буква O вместо нуля",
+      "pid": "SYN-06"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:272",
+      "codes": [
+        "CONFLICT"
+      ],
+      "desc": "Две разные записи одного теста",
+      "pid": "SYN-06"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:273",
+      "codes": [
+        "CONFLICT"
+      ],
+      "desc": "Две разные записи одного теста",
+      "pid": "SYN-06"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:352",
+      "codes": [
+        "PEAK_CRITERIA"
+      ],
+      "desc": "Тест прекращён до максимума (RER 1,03, RPE 15, VO₂ занижен)",
+      "pid": "SYN-08"
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:358",
+      "codes": [
+        "MISSING_ID"
+      ],
+      "desc": "Нет идентификатора участника",
+      "pid": ""
+    },
+    {
+      "row_id": "aerocore_synthetic.csv:397",
+      "codes": [
+        "UNIT_SUSPECT"
+      ],
+      "desc": "VO₂ записан в мл/мин вместо л/мин",
+      "pid": "SYN-09"
+    }
+  ],
+  "scenario": "mixed",
+  "bedRestDays": 60,
+  "seed": 42
+}

@@ -1,0 +1,85 @@
+{
+ "rows": 111,
+ "quality_issues": 20,
+ "nonmaximal_tests": 6,
+ "change": {
+  "CONTROL|POST1": {
+   "n": 8,
+   "median": -20.7,
+   "mean": -22.3,
+   "sd": 12.9,
+   "min": -39.1,
+   "max": -0.4,
+   "below80": 5,
+   "loss_gt10": 7
+  },
+  "CONTROL|POST2": {
+   "n": 8,
+   "median": -8.1,
+   "mean": -6.2,
+   "sd": 11.1,
+   "min": -20.4,
+   "max": 12.5,
+   "below80": 1,
+   "loss_gt10": 4
+  },
+  "EXERCISE|POST1": {
+   "n": 18,
+   "median": -3.6,
+   "mean": -2.8,
+   "sd": 8.9,
+   "min": -16.5,
+   "max": 12.8,
+   "below80": 0,
+   "loss_gt10": 4
+  },
+  "EXERCISE|POST2": {
+   "n": 17,
+   "median": 4.4,
+   "mean": 4.6,
+   "sd": 8.4,
+   "min": -10.9,
+   "max": 26.0,
+   "below80": 0,
+   "loss_gt10": 1
+  },
+  "FLY|POST1": {
+   "n": 8,
+   "median": -2.9,
+   "mean": -4.9,
+   "sd": 6.1,
+   "min": -13.5,
+   "max": 1.9,
+   "below80": 0,
+   "loss_gt10": 3
+  },
+  "FLY|POST2": {
+   "n": 8,
+   "median": -0.2,
+   "mean": -0.9,
+   "sd": 4.4,
+   "min": -8.3,
+   "max": 4.2,
+   "below80": 0,
+   "loss_gt10": 0
+  }
+ },
+ "hrpk_change_bpm": {
+  "POST1": {
+   "n": 34,
+   "median": 1.5,
+   "mean": 0.2,
+   "sd": 7.1,
+   "min": -17.0,
+   "max": 15.0
+  },
+  "POST2": {
+   "n": 33,
+   "median": -1.0,
+   "mean": -0.0,
+   "sd": 7.0,
+   "min": -24.0,
+   "max": 14.0
+  }
+ }
+}

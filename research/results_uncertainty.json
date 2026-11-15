@@ -1,0 +1,336 @@
+{
+ "c3_decline_R0_median": {
+  "est": -32.096474953617815,
+  "lo": -36.81462140992168,
+  "hi": -25.13761467889908,
+  "n_obs": 15,
+  "n_subj": 15
+ },
+ "c3_decline_R11_median": {
+  "est": -18.00597761060276,
+  "lo": -20.0,
+  "hi": -10.000000000000009,
+  "n_obs": 14,
+  "n_subj": 14
+ },
+ "c3_hrpk_change_median": {
+  "est": -0.25,
+  "lo": -2.25,
+  "hi": 1.5,
+  "n_obs": 30,
+  "n_subj": 16
+ },
+ "c3_aci_error_pre_median": {
+  "est": -6.156487613441306,
+  "lo": -8.110882293559403,
+  "hi": -1.3246105515432125,
+  "n_obs": 47,
+  "n_subj": 28
+ },
+ "c3_aci_within10_pre": {
+  "est": 74.46808510638297,
+  "lo": 59.99038461538462,
+  "hi": 87.75510204081633,
+  "n_obs": 47,
+  "n_subj": 28
+ },
+ "c3_change_r": {
+  "est": 0.7432908869183423,
+  "lo": 0.6186638529963481,
+  "hi": 0.8868227490179446,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_change_within10": {
+  "est": 80.0,
+  "lo": 63.1578947368421,
+  "hi": 95.0,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_change_error_sd": {
+  "est": 8.99664551630148,
+  "lo": 5.822270630600336,
+  "hi": 11.351243797394654,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_aci_test_noise_sd": {
+  "est": 6.361589052508324,
+  "lo": 4.148558883889188,
+  "hi": 8.072287222848768,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_decision_sens_vs_measured_baseline": {
+  "est": 90.0,
+  "lo": 73.33333333333333,
+  "hi": 100.0,
+  "n_obs": 21,
+  "n_subj": 14,
+  "k": 9,
+  "n": 10,
+  "interval_method": "Participant-cluster percentile bootstrap; test-level proportion"
+ },
+ "c3_decision_spec_vs_measured_baseline": {
+  "est": 81.81818181818183,
+  "lo": 60.0,
+  "hi": 100.0,
+  "n_obs": 21,
+  "n_subj": 14,
+  "k": 9,
+  "n": 11,
+  "interval_method": "Participant-cluster percentile bootstrap; test-level proportion"
+ },
+ "c3_decision_sens_vs_aci_baseline": {
+  "est": 70.0,
+  "lo": 42.857142857142854,
+  "hi": 100.0,
+  "n_obs": 20,
+  "n_subj": 13,
+  "k": 7,
+  "n": 10,
+  "interval_method": "Participant-cluster percentile bootstrap; test-level proportion"
+ },
+ "c3_decision_spec_vs_aci_baseline": {
+  "est": 70.0,
+  "lo": 44.44444444444444,
+  "hi": 100.0,
+  "n_obs": 20,
+  "n_subj": 13,
+  "k": 7,
+  "n": 10,
+  "interval_method": "Participant-cluster percentile bootstrap; test-level proportion"
+ },
+ "c3_mae_aci_vs_aci_baseline": {
+  "est": 7.298575678643738,
+  "lo": 4.941577393784455,
+  "hi": 10.058251980689978,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_mae_groupmean_vs_aci_baseline": {
+  "est": 6.755681822402297,
+  "lo": 4.019698012223484,
+  "hi": 10.577021205844613,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_mae_diff_vs_aci_baseline": {
+  "est": 0.5428938562414407,
+  "lo": -3.952612958574224,
+  "hi": 4.2331305995041735,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_mae_aci_vs_measured_baseline": {
+  "est": 6.564713754274905,
+  "lo": 4.098943217376662,
+  "hi": 9.200076388271572,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_mae_groupmean_vs_measured_baseline": {
+  "est": 6.755681822402297,
+  "lo": 4.178543601289733,
+  "hi": 10.682567256887198,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_mae_diff_vs_measured_baseline": {
+  "est": -0.19096806812739242,
+  "lo": -3.5757347848954186,
+  "hi": 2.0597850117539602,
+  "n_obs": 20,
+  "n_subj": 13
+ },
+ "c3_decision_sens_groupmean": {
+  "est": 70.0,
+  "lo": 45.45454545454545,
+  "hi": 100.0,
+  "n_obs": 20,
+  "n_subj": 13,
+  "k": 7,
+  "n": 10,
+  "interval_method": "Participant-cluster percentile bootstrap; test-level proportion"
+ },
+ "c3_decision_spec_groupmean": {
+  "est": 90.0,
+  "lo": 0.0,
+  "hi": 100.0,
+  "n_obs": 20,
+  "n_subj": 13,
+  "k": 9,
+  "n": 10,
+  "interval_method": "Participant-cluster percentile bootstrap; test-level proportion"
+ },
+ "c3_learning_mean": {
+  "est": 5.090250758843551,
+  "lo": 2.0973986399371465,
+  "hi": 9.54694786437138,
+  "n_obs": 21,
+  "n_subj": 21
+ },
+ "c3_learning_p": 0.014611122412561782,
+ "c3_typical_error_pct": {
+  "est": 5.544505216984552,
+  "lo": 2.5660803654382596,
+  "hi": 8.340645238522002,
+  "n_obs": 21,
+  "n_subj": 21
+ },
+ "c3_learning_excluded": [
+  "C3A_5788 (тест 2 не максимальный: RER 0,95, ЧСС 120)",
+  "C3E_6607 (тест 1: 2,59 л/мин при 300 Вт против 3,29 при 150 Вт — несогласованная запись)"
+ ],
+ "cft70_CONTROL_POST1_median": {
+  "est": -20.697004040603133,
+  "lo": -38.41463414634146,
+  "hi": -13.10679611650486,
+  "n_obs": 8,
+  "n_subj": 8
+ },
+ "cft70_CONTROL_POST1_below80": {
+  "k": 5,
+  "n": 8,
+  "est": 62.5,
+  "lo": 30.57423946026273,
+  "hi": 86.31557141764027
+ },
+ "cft70_CONTROL_POST2_median": {
+  "est": -8.149354967415885,
+  "lo": -16.158536585365844,
+  "hi": 2.517985611510798,
+  "n_obs": 8,
+  "n_subj": 8
+ },
+ "cft70_CONTROL_POST2_below80": {
+  "k": 1,
+  "n": 8,
+  "est": 12.5,
+  "lo": 2.241749145005667,
+  "hi": 47.08881822128535
+ },
+ "cft70_EXERCISE_POST1_median": {
+  "est": -3.580820937914209,
+  "lo": -9.746949581766557,
+  "hi": 3.0292555126992253,
+  "n_obs": 18,
+  "n_subj": 18
+ },
+ "cft70_EXERCISE_POST1_below80": {
+  "k": 0,
+  "n": 18,
+  "est": 0.0,
+  "lo": 0.0,
+  "hi": 17.587922364665765
+ },
+ "cft70_EXERCISE_POST2_median": {
+  "est": 4.41176470588236,
+  "lo": 0.7017543859649145,
+  "hi": 7.417582417582413,
+  "n_obs": 17,
+  "n_subj": 17
+ },
+ "cft70_EXERCISE_POST2_below80": {
+  "k": 0,
+  "n": 17,
+  "est": 0.0,
+  "lo": 0.0,
+  "hi": 18.43181350088518
+ },
+ "cft70_FLY_POST1_median": {
+  "est": -2.9149434451143597,
+  "lo": -11.66666666666667,
+  "hi": 0.5409014115210663,
+  "n_obs": 8,
+  "n_subj": 8
+ },
+ "cft70_FLY_POST1_below80": {
+  "k": 0,
+  "n": 8,
+  "est": 0.0,
+  "lo": 0.0,
+  "hi": 32.440756488388026
+ },
+ "cft70_FLY_POST2_median": {
+  "est": -0.2214819956724512,
+  "lo": -4.371584699453557,
+  "hi": 2.9661016949152685,
+  "n_obs": 8,
+  "n_subj": 8
+ },
+ "cft70_FLY_POST2_below80": {
+  "k": 0,
+  "n": 8,
+  "est": 0.0,
+  "lo": 0.0,
+  "hi": 32.440756488388026
+ },
+ "cft70_hrpk_change_median": {
+  "est": 0.0,
+  "lo": -2.0,
+  "hi": 3.0,
+  "n_obs": 67,
+  "n_subj": 34
+ },
+ "cft70_control_vs_exercise_p": 0.0002312157320990665,
+ "cft70_control_vs_exercise_p_method": "Two-sided Mann–Whitney U of continuous change: CONTROL (n=8) versus pooled EXERCISE+FLY (n=26), POST1; not a categorical 5/8 versus 0/18 comparison.",
+ "transfer_c3_mean_early": -30.494426195220655,
+ "transfer_mae_cft70_exercise": {
+  "est": 27.013846787793828,
+  "lo": 24.024816036312856,
+  "hi": 30.0675139977215,
+  "n_obs": 26,
+  "n_subj": 26
+ },
+ "transfer_mae_cft70_control": {
+  "est": 12.353685849546881,
+  "lo": 7.537589235179132,
+  "hi": 18.045792571582695,
+  "n_obs": 8,
+  "n_subj": 8
+ },
+ "phys_err_median_0.75": {
+  "est": 12.98201062433089,
+  "lo": 10.405901051966145,
+  "hi": 14.505531067938762,
+  "n_obs": 421,
+  "n_subj": 379
+ },
+ "phys_within10_0.75": {
+  "est": 30.641330166270787,
+  "lo": 26.36547436076568,
+  "hi": 34.87352007398954,
+  "n_obs": 421,
+  "n_subj": 379
+ },
+ "phys_err_median_0.8": {
+  "est": 7.59448079045526,
+  "lo": 6.694000675881612,
+  "hi": 8.799541486502852,
+  "n_obs": 445,
+  "n_subj": 399
+ },
+ "phys_within10_0.8": {
+  "est": 47.640449438202246,
+  "lo": 42.95454545454545,
+  "hi": 52.35981687675958,
+  "n_obs": 445,
+  "n_subj": 399
+ },
+ "phys_err_median_0.85": {
+  "est": 4.0153496867398015,
+  "lo": 2.544964256164585,
+  "hi": 5.04613158001545,
+  "n_obs": 452,
+  "n_subj": 406
+ },
+ "phys_within10_0.85": {
+  "est": 62.61061946902655,
+  "lo": 57.93965419447544,
+  "hi": 67.24531000452909,
+  "n_obs": 452,
+  "n_subj": 406
+ }
+}
