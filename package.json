@@ -1,0 +1,16 @@
+{
+  "name": "aerocore-research-workbench",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Offline aerobic-capacity research workbench using NASA flight-analog data",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "node tests/core.test.js && node tests/app.test.js",
+    "test:research": "python3 -m unittest discover -s research -p test_research.py -v",
+    "test:browser": "python3 tests/browser_smoke.py",
+    "serve": "python3 start.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
